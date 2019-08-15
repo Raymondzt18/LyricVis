@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#waveform {
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+region.wavesurfer-region:before {
+  content: attr(data-region-label);
+  position: absolute;
+  top: 0;
+  font-size: 5px;
+}
+
+#lyricBody {
+  height: 100%;
+  position: relative;
+}
+
+#lyricDisplay {
+  min-height: 100%;
+  height: 100%;
+}
+
+.fillHeight {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#wavePlayer {
+  position: relative;
 }

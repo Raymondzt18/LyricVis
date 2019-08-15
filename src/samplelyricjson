@@ -1,0 +1,3982 @@
+{
+  "wid_0": {
+    "wid": "wid_0",
+    "word": "If",
+    "row": "0",
+    "col": "0",
+    "timeStamp": 1.0273385505709056,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_1": {
+    "wid": "wid_1",
+    "word": "you",
+    "row": "0",
+    "col": "1",
+    "timeStamp": 1.1724632671241926,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_2": {
+    "wid": "wid_2",
+    "word": "tell",
+    "row": "0",
+    "col": "2",
+    "timeStamp": 1.683302269391766,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_3": {
+    "wid": "wid_3",
+    "word": "me",
+    "row": "0",
+    "col": "3",
+    "timeStamp": 1.840036963269319,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_4": {
+    "wid": "wid_4",
+    "word": "that",
+    "row": "0",
+    "col": "4",
+    "timeStamp": 1.9909666684847371,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_5": {
+    "wid": "wid_5",
+    "word": "you",
+    "row": "0",
+    "col": "5",
+    "timeStamp": 2.14770136236229,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_6": {
+    "wid": "wid_6",
+    "word": "want",
+    "row": "0",
+    "col": "6",
+    "timeStamp": 2.327656010888364,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_7": {
+    "wid": "wid_7",
+    "word": "me",
+    "row": "0",
+    "col": "7",
+    "timeStamp": 2.6817603192783883,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_8": {
+    "wid": "wid_8",
+    "word": "back",
+    "row": "0",
+    "col": "8",
+    "timeStamp": 2.861714967804466,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_9": {
+    "wid": "wid_9",
+    "word": "I",
+    "row": "1",
+    "col": "0",
+    "timeStamp": 3.7440732444484572,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_10": {
+    "wid": "wid_10",
+    "word": "don't",
+    "row": "1",
+    "col": "1",
+    "timeStamp": 3.912417915650269,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_11": {
+    "wid": "wid_11",
+    "word": "know",
+    "row": "1",
+    "col": "2",
+    "timeStamp": 4.417451929255711,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_12": {
+    "wid": "wid_12",
+    "word": "if",
+    "row": "1",
+    "col": "3",
+    "timeStamp": 4.579991611795395,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_13": {
+    "wid": "wid_13",
+    "word": "I",
+    "row": "1",
+    "col": "4",
+    "timeStamp": 4.7309213170108135,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_14": {
+    "wid": "wid_14",
+    "word": "could",
+    "row": "1",
+    "col": "5",
+    "timeStamp": 4.893460999550498,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_15": {
+    "wid": "wid_15",
+    "word": "handle",
+    "row": "1",
+    "col": "6",
+    "timeStamp": 5.1082455800493625,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_16": {
+    "wid": "wid_16",
+    "word": "that",
+    "row": "1",
+    "col": "7",
+    "timeStamp": 5.630694559641202,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_17": {
+    "wid": "wid_17",
+    "word": "'Cause",
+    "row": "2",
+    "col": "0",
+    "timeStamp": 6.373733108394034,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_18": {
+    "wid": "wid_18",
+    "word": "we",
+    "row": "2",
+    "col": "1",
+    "timeStamp": 6.5246628136094555,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_19": {
+    "wid": "wid_19",
+    "word": "got",
+    "row": "2",
+    "col": "2",
+    "timeStamp": 6.681397507487005,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_20": {
+    "wid": "wid_20",
+    "word": "nothin'",
+    "row": "2",
+    "col": "3",
+    "timeStamp": 7.145796600457525,
+    "set": true,
+    "beforePlayHead": true
+  },
+  "wid_21": {
+    "wid": "wid_21",
+    "word": "but",
+    "row": "2",
+    "col": "4",
+    "timeStamp": 7.9120551038588856,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_22": {
+    "wid": "wid_22",
+    "word": "stress",
+    "row": "2",
+    "col": "5",
+    "timeStamp": 8.260354423586778,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_23": {
+    "wid": "wid_23",
+    "word": "Holdin'",
+    "row": "3",
+    "col": "0",
+    "timeStamp": 9.202712700230768,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_24": {
+    "wid": "wid_24",
+    "word": "us",
+    "row": "3",
+    "col": "1",
+    "timeStamp": 9.492962133337342,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_25": {
+    "wid": "wid_25",
+    "word": "together",
+    "row": "3",
+    "col": "2",
+    "timeStamp": 9.858676419051632,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_26": {
+    "wid": "wid_26",
+    "word": "like",
+    "row": "3",
+    "col": "3",
+    "timeStamp": 10.566885035831673,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_27": {
+    "wid": "wid_27",
+    "word": "thread",
+    "row": "3",
+    "col": "4",
+    "timeStamp": 10.909379366897431,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_28": {
+    "wid": "wid_28",
+    "word": "If",
+    "row": "4",
+    "col": "0",
+    "timeStamp": 12.023937190026684,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_29": {
+    "wid": "wid_29",
+    "word": "you",
+    "row": "4",
+    "col": "1",
+    "timeStamp": 12.186476872566365,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_30": {
+    "wid": "wid_30",
+    "word": "tell",
+    "row": "4",
+    "col": "2",
+    "timeStamp": 12.749560772793123,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_31": {
+    "wid": "wid_31",
+    "word": "me",
+    "row": "4",
+    "col": "3",
+    "timeStamp": 12.906295466670676,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_32": {
+    "wid": "wid_32",
+    "word": "that",
+    "row": "4",
+    "col": "4",
+    "timeStamp": 13.057225171886094,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_33": {
+    "wid": "wid_33",
+    "word": "you",
+    "row": "4",
+    "col": "5",
+    "timeStamp": 13.225569843087909,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_34": {
+    "wid": "wid_34",
+    "word": "want",
+    "row": "4",
+    "col": "6",
+    "timeStamp": 13.376499548303327,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_35": {
+    "wid": "wid_35",
+    "word": "me",
+    "row": "4",
+    "col": "7",
+    "timeStamp": 13.72479886803122,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_36": {
+    "wid": "wid_36",
+    "word": "back",
+    "row": "4",
+    "col": "8",
+    "timeStamp": 13.904753516557298,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_37": {
+    "wid": "wid_37",
+    "word": "I",
+    "row": "5",
+    "col": "0",
+    "timeStamp": 14.798721770525551,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_38": {
+    "wid": "wid_38",
+    "word": "don't",
+    "row": "5",
+    "col": "1",
+    "timeStamp": 14.972871430389494,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_39": {
+    "wid": "wid_39",
+    "word": "know",
+    "row": "5",
+    "col": "2",
+    "timeStamp": 15.483710432657068,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_40": {
+    "wid": "wid_40",
+    "word": "if",
+    "row": "5",
+    "col": "3",
+    "timeStamp": 15.64044512653462,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_41": {
+    "wid": "wid_41",
+    "word": "I",
+    "row": "5",
+    "col": "4",
+    "timeStamp": 15.797179820412174,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_42": {
+    "wid": "wid_42",
+    "word": "could",
+    "row": "5",
+    "col": "5",
+    "timeStamp": 15.994549434924641,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_43": {
+    "wid": "wid_43",
+    "word": "handle",
+    "row": "5",
+    "col": "6",
+    "timeStamp": 16.191919049437118,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_44": {
+    "wid": "wid_44",
+    "word": "that",
+    "row": "5",
+    "col": "7",
+    "timeStamp": 16.667928119731904,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_45": {
+    "wid": "wid_45",
+    "word": "'Cause",
+    "row": "6",
+    "col": "0",
+    "timeStamp": 17.376136736511945,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_46": {
+    "wid": "wid_46",
+    "word": "we",
+    "row": "6",
+    "col": "1",
+    "timeStamp": 17.52706644172737,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_47": {
+    "wid": "wid_47",
+    "word": "got",
+    "row": "6",
+    "col": "2",
+    "timeStamp": 17.712826078915576,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_48": {
+    "wid": "wid_48",
+    "word": "nothin'",
+    "row": "6",
+    "col": "3",
+    "timeStamp": 18.19464013787249,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_49": {
+    "wid": "wid_49",
+    "word": "but",
+    "row": "6",
+    "col": "4",
+    "timeStamp": 18.926068709301063,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_50": {
+    "wid": "wid_50",
+    "word": "stress",
+    "row": "6",
+    "col": "5",
+    "timeStamp": 19.303392972339616,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_51": {
+    "wid": "wid_51",
+    "word": "I",
+    "row": "7",
+    "col": "0",
+    "timeStamp": 20.278631067577706,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_52": {
+    "wid": "wid_52",
+    "word": "don't",
+    "row": "7",
+    "col": "1",
+    "timeStamp": 20.441170750117386,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_53": {
+    "wid": "wid_53",
+    "word": "know",
+    "row": "7",
+    "col": "2",
+    "timeStamp": 20.621125398643464,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_54": {
+    "wid": "wid_54",
+    "word": "if",
+    "row": "7",
+    "col": "3",
+    "timeStamp": 20.795275058507414,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_55": {
+    "wid": "wid_55",
+    "word": "we",
+    "row": "7",
+    "col": "4",
+    "timeStamp": 20.96361972970923,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_56": {
+    "wid": "wid_56",
+    "word": "can",
+    "row": "7",
+    "col": "5",
+    "timeStamp": 21.311919049437115,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_57": {
+    "wid": "wid_57",
+    "word": "be",
+    "row": "7",
+    "col": "6",
+    "timeStamp": 21.66021836916501,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_58": {
+    "wid": "wid_58",
+    "word": "friends",
+    "row": "7",
+    "col": "7",
+    "timeStamp": 22.020127666217164,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_59": {
+    "wid": "wid_59",
+    "word": "If",
+    "row": "8",
+    "col": "0",
+    "timeStamp": 23.392055103858887,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_60": {
+    "wid": "wid_60",
+    "word": "you",
+    "row": "8",
+    "col": "1",
+    "timeStamp": 23.560399775060702,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_61": {
+    "wid": "wid_61",
+    "word": "told",
+    "row": "8",
+    "col": "2",
+    "timeStamp": 23.71132948027612,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_62": {
+    "wid": "wid_62",
+    "word": "me",
+    "row": "8",
+    "col": "3",
+    "timeStamp": 23.873869162815808,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_63": {
+    "wid": "wid_63",
+    "word": "that",
+    "row": "8",
+    "col": "4",
+    "timeStamp": 24.03640884535549,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_64": {
+    "wid": "wid_64",
+    "word": "you",
+    "row": "8",
+    "col": "5",
+    "timeStamp": 24.21055850521943,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_65": {
+    "wid": "wid_65",
+    "word": "love",
+    "row": "8",
+    "col": "6",
+    "timeStamp": 24.407928119731906,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_66": {
+    "wid": "wid_66",
+    "word": "me",
+    "row": "8",
+    "col": "7",
+    "timeStamp": 24.738812473473402,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_67": {
+    "wid": "wid_67",
+    "word": "Why'd",
+    "row": "9",
+    "col": "0",
+    "timeStamp": 25.085161679822605,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_68": {
+    "wid": "wid_68",
+    "word": "you",
+    "row": "9",
+    "col": "1",
+    "timeStamp": 25.410241044901973,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_69": {
+    "wid": "wid_69",
+    "word": "leave,",
+    "row": "9",
+    "col": "2",
+    "timeStamp": 25.775955330616256,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_70": {
+    "wid": "wid_70",
+    "word": "why'd",
+    "row": "9",
+    "col": "3",
+    "timeStamp": 26.50738390204483,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_71": {
+    "wid": "wid_71",
+    "word": "you",
+    "row": "9",
+    "col": "4",
+    "timeStamp": 27.145932654879296,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_72": {
+    "wid": "wid_72",
+    "word": "leave?",
+    "row": "9",
+    "col": "5",
+    "timeStamp": 27.471012019958657,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_73": {
+    "wid": "wid_73",
+    "word": "(You",
+    "row": "9",
+    "col": "6",
+    "timeStamp": 27.81931133968655,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_74": {
+    "wid": "wid_74",
+    "word": "leave)",
+    "row": "9",
+    "col": "7",
+    "timeStamp": 28.144390704765918,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_75": {
+    "wid": "wid_75",
+    "word": "If",
+    "row": "10",
+    "col": "0",
+    "timeStamp": 28.953234242180876,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_76": {
+    "wid": "wid_76",
+    "word": "you",
+    "row": "10",
+    "col": "1",
+    "timeStamp": 29.104163947396295,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_77": {
+    "wid": "wid_77",
+    "word": "told",
+    "row": "10",
+    "col": "2",
+    "timeStamp": 29.272508618598117,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_78": {
+    "wid": "wid_78",
+    "word": "me",
+    "row": "10",
+    "col": "3",
+    "timeStamp": 29.44665827846206,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_79": {
+    "wid": "wid_79",
+    "word": "that",
+    "row": "10",
+    "col": "4",
+    "timeStamp": 29.615002949663868,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_80": {
+    "wid": "wid_80",
+    "word": "you",
+    "row": "10",
+    "col": "5",
+    "timeStamp": 29.777542632203556,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_81": {
+    "wid": "wid_81",
+    "word": "need",
+    "row": "10",
+    "col": "6",
+    "timeStamp": 29.94008231474323,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_82": {
+    "wid": "wid_82",
+    "word": "me",
+    "row": "10",
+    "col": "7",
+    "timeStamp": 30.270966668484725,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_83": {
+    "wid": "wid_83",
+    "word": "Why'd",
+    "row": "11",
+    "col": "0",
+    "timeStamp": 30.619265988212625,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_84": {
+    "wid": "wid_84",
+    "word": "you",
+    "row": "11",
+    "col": "1",
+    "timeStamp": 30.95015034195412,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_85": {
+    "wid": "wid_85",
+    "word": "go",
+    "row": "11",
+    "col": "2",
+    "timeStamp": 31.275229707033482,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_86": {
+    "wid": "wid_86",
+    "word": "away",
+    "row": "11",
+    "col": "3",
+    "timeStamp": 31.611919049437113,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_87": {
+    "wid": "wid_87",
+    "word": "from",
+    "row": "11",
+    "col": "4",
+    "timeStamp": 32.61618208798587,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_88": {
+    "wid": "wid_88",
+    "word": "me?",
+    "row": "11",
+    "col": "5",
+    "timeStamp": 32.97028639637589,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_89": {
+    "wid": "wid_89",
+    "word": "(From",
+    "row": "11",
+    "col": "6",
+    "timeStamp": 33.318585716103776,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_90": {
+    "wid": "wid_90",
+    "word": "me)",
+    "row": "11",
+    "col": "7",
+    "timeStamp": 33.66108004716954,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_91": {
+    "wid": "wid_91",
+    "word": "You",
+    "row": "12",
+    "col": "0",
+    "timeStamp": 34.59763333515141,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_92": {
+    "wid": "wid_92",
+    "word": "told",
+    "row": "12",
+    "col": "1",
+    "timeStamp": 34.75436802902896,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_93": {
+    "wid": "wid_93",
+    "word": "me",
+    "row": "12",
+    "col": "2",
+    "timeStamp": 34.90529773424438,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_94": {
+    "wid": "wid_94",
+    "word": "I",
+    "row": "12",
+    "col": "3",
+    "timeStamp": 35.05042245079766,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_95": {
+    "wid": "wid_95",
+    "word": "could",
+    "row": "12",
+    "col": "4",
+    "timeStamp": 35.21296213333735,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_96": {
+    "wid": "wid_96",
+    "word": "trust",
+    "row": "12",
+    "col": "5",
+    "timeStamp": 35.39291678186343,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_97": {
+    "wid": "wid_97",
+    "word": "you",
+    "row": "12",
+    "col": "6",
+    "timeStamp": 35.700581180956384,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_98": {
+    "wid": "wid_98",
+    "word": "Why'd",
+    "row": "13",
+    "col": "0",
+    "timeStamp": 36.091465534697896,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_99": {
+    "wid": "wid_99",
+    "word": "you",
+    "row": "13",
+    "col": "1",
+    "timeStamp": 36.42815487710151,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_100": {
+    "wid": "wid_100",
+    "word": "lie?",
+    "row": "13",
+    "col": "2",
+    "timeStamp": 36.80547914014007,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_101": {
+    "wid": "wid_101",
+    "word": "You're",
+    "row": "13",
+    "col": "3",
+    "timeStamp": 37.362758051704695,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_102": {
+    "wid": "wid_102",
+    "word": "full",
+    "row": "13",
+    "col": "4",
+    "timeStamp": 37.53690771156864,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_103": {
+    "wid": "wid_103",
+    "word": "of",
+    "row": "13",
+    "col": "5",
+    "timeStamp": 38.204481407713764,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_104": {
+    "wid": "wid_104",
+    "word": "lies",
+    "row": "13",
+    "col": "6",
+    "timeStamp": 38.558585716103785,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_105": {
+    "wid": "wid_105",
+    "word": "(Of",
+    "row": "13",
+    "col": "7",
+    "timeStamp": 38.883665081183146,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_106": {
+    "wid": "wid_106",
+    "word": "lies)",
+    "row": "13",
+    "col": "8",
+    "timeStamp": 39.22035442358678,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_107": {
+    "wid": "wid_107",
+    "word": "You're",
+    "row": "14",
+    "col": "0",
+    "timeStamp": 40.00017301769109,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_108": {
+    "wid": "wid_108",
+    "word": "full",
+    "row": "14",
+    "col": "1",
+    "timeStamp": 40.30783741678406,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_109": {
+    "wid": "wid_109",
+    "word": "of",
+    "row": "14",
+    "col": "2",
+    "timeStamp": 40.96380113560492,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_110": {
+    "wid": "wid_110",
+    "word": "lies",
+    "row": "14",
+    "col": "3",
+    "timeStamp": 41.30629546667068,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_111": {
+    "wid": "wid_111",
+    "word": "(Of",
+    "row": "14",
+    "col": "4",
+    "timeStamp": 41.648789797736434,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_112": {
+    "wid": "wid_112",
+    "word": "lies)",
+    "row": "14",
+    "col": "5",
+    "timeStamp": 41.968064174153675,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_113": {
+    "wid": "wid_113",
+    "word": "Quit",
+    "row": "15",
+    "col": "0",
+    "timeStamp": 42.67046780227158,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_114": {
+    "wid": "wid_114",
+    "word": "wastin'",
+    "row": "15",
+    "col": "1",
+    "timeStamp": 43.00135215601308,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_115": {
+    "wid": "wid_115",
+    "word": "my",
+    "row": "15",
+    "col": "2",
+    "timeStamp": 43.72697573877952,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_116": {
+    "wid": "wid_116",
+    "word": "time",
+    "row": "15",
+    "col": "3",
+    "timeStamp": 44.04625011519676,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_117": {
+    "wid": "wid_117",
+    "word": "You",
+    "row": "16",
+    "col": "0",
+    "timeStamp": 45.799356691160476,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_118": {
+    "wid": "wid_118",
+    "word": "tell",
+    "row": "16",
+    "col": "1",
+    "timeStamp": 46.10702109025345,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_119": {
+    "wid": "wid_119",
+    "word": "everyone",
+    "row": "16",
+    "col": "2",
+    "timeStamp": 46.44371043265708,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_120": {
+    "wid": "wid_120",
+    "word": "that",
+    "row": "16",
+    "col": "3",
+    "timeStamp": 47.48860839184075,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_121": {
+    "wid": "wid_121",
+    "word": "I",
+    "row": "16",
+    "col": "4",
+    "timeStamp": 47.819492745582245,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_122": {
+    "wid": "wid_122",
+    "word": "am",
+    "row": "16",
+    "col": "5",
+    "timeStamp": 48.15037709932374,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_123": {
+    "wid": "wid_123",
+    "word": "nothin'",
+    "row": "16",
+    "col": "6",
+    "timeStamp": 48.53350635102442,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_124": {
+    "wid": "wid_124",
+    "word": "to",
+    "row": "16",
+    "col": "7",
+    "timeStamp": 49.19527505850741,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_125": {
+    "wid": "wid_125",
+    "word": "ya",
+    "row": "16",
+    "col": "8",
+    "timeStamp": 49.52615941224891,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_126": {
+    "wid": "wid_126",
+    "word": "(Nothin'",
+    "row": "16",
+    "col": "9",
+    "timeStamp": 49.874458731976794,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_127": {
+    "wid": "wid_127",
+    "word": "to",
+    "row": "16",
+    "col": "10",
+    "timeStamp": 50.576862360094715,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_128": {
+    "wid": "wid_128",
+    "word": "ya)",
+    "row": "16",
+    "col": "11",
+    "timeStamp": 50.9251616798226,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_129": {
+    "wid": "wid_129",
+    "word": "What",
+    "row": "17",
+    "col": "0",
+    "timeStamp": 51.37985555737372,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_130": {
+    "wid": "wid_130",
+    "word": "about",
+    "row": "17",
+    "col": "1",
+    "timeStamp": 51.658495013155964,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_131": {
+    "wid": "wid_131",
+    "word": "those",
+    "row": "17",
+    "col": "2",
+    "timeStamp": 52.3725086185982,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_132": {
+    "wid": "wid_132",
+    "word": "nights",
+    "row": "17",
+    "col": "3",
+    "timeStamp": 52.65114807438044,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_133": {
+    "wid": "wid_133",
+    "word": "when",
+    "row": "17",
+    "col": "4",
+    "timeStamp": 53.0342773260811,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_134": {
+    "wid": "wid_134",
+    "word": "I",
+    "row": "17",
+    "col": "5",
+    "timeStamp": 53.36711179320127,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_135": {
+    "wid": "wid_135",
+    "word": "was",
+    "row": "17",
+    "col": "6",
+    "timeStamp": 53.703801135604856,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_136": {
+    "wid": "wid_136",
+    "word": "right",
+    "row": "18",
+    "col": "0",
+    "timeStamp": 54.057905443994734,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_137": {
+    "wid": "wid_137",
+    "word": "next",
+    "row": "18",
+    "col": "1",
+    "timeStamp": 54.40620476372282,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_138": {
+    "wid": "wid_138",
+    "word": "to",
+    "row": "18",
+    "col": "2",
+    "timeStamp": 54.777724038099215,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_139": {
+    "wid": "wid_139",
+    "word": "ya?",
+    "row": "18",
+    "col": "3",
+    "timeStamp": 55.102803403178534,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_140": {
+    "wid": "wid_140",
+    "word": "(Right",
+    "row": "18",
+    "col": "4",
+    "timeStamp": 55.43949274558212,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_141": {
+    "wid": "wid_141",
+    "word": "next",
+    "row": "18",
+    "col": "5",
+    "timeStamp": 55.75296213333717,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_142": {
+    "wid": "wid_142",
+    "word": "to",
+    "row": "18",
+    "col": "6",
+    "timeStamp": 56.10126145306503,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_143": {
+    "wid": "wid_143",
+    "word": "ya)",
+    "row": "18",
+    "col": "7",
+    "timeStamp": 56.47278072744165,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_144": {
+    "wid": "wid_144",
+    "word": "Good",
+    "row": "19",
+    "col": "0",
+    "timeStamp": 56.80947006984524,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_145": {
+    "wid": "wid_145",
+    "word": "luck",
+    "row": "19",
+    "col": "1",
+    "timeStamp": 57.19454943492428,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_146": {
+    "wid": "wid_146",
+    "word": "findin'",
+    "row": "19",
+    "col": "2",
+    "timeStamp": 57.49640884535528,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_147": {
+    "wid": "wid_147",
+    "word": "someone",
+    "row": "19",
+    "col": "3",
+    "timeStamp": 58.18139750748673,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_148": {
+    "wid": "wid_148",
+    "word": "else",
+    "row": "19",
+    "col": "4",
+    "timeStamp": 58.866386169618174,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_149": {
+    "wid": "wid_149",
+    "word": "that",
+    "row": "19",
+    "col": "5",
+    "timeStamp": 59.20307551202176,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_150": {
+    "wid": "wid_150",
+    "word": "caters",
+    "row": "19",
+    "col": "6",
+    "timeStamp": 59.58039977506041,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_151": {
+    "wid": "wid_151",
+    "word": "to",
+    "row": "19",
+    "col": "7",
+    "timeStamp": 60.25377845986758,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_152": {
+    "wid": "wid_152",
+    "word": "ya",
+    "row": "19",
+    "col": "8",
+    "timeStamp": 60.60207777959567,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_153": {
+    "wid": "wid_153",
+    "word": "(Caters",
+    "row": "19",
+    "col": "9",
+    "timeStamp": 60.98520703129633,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_154": {
+    "wid": "wid_154",
+    "word": "to",
+    "row": "19",
+    "col": "10",
+    "timeStamp": 61.60634081814441,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_155": {
+    "wid": "wid_155",
+    "word": "ya)",
+    "row": "19",
+    "col": "11",
+    "timeStamp": 62.030104990479906,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_156": {
+    "wid": "wid_156",
+    "word": "This",
+    "row": "20",
+    "col": "0",
+    "timeStamp": 61.64117075011699,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_157": {
+    "wid": "wid_157",
+    "word": "is",
+    "row": "20",
+    "col": "1",
+    "timeStamp": 61.8269303873053,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_158": {
+    "wid": "wid_158",
+    "word": "too",
+    "row": "20",
+    "col": "2",
+    "timeStamp": 62.00688503583137,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_159": {
+    "wid": "wid_159",
+    "word": "much",
+    "row": "20",
+    "col": "3",
+    "timeStamp": 62.39001428753203,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_160": {
+    "wid": "wid_160",
+    "word": "for",
+    "row": "20",
+    "col": "4",
+    "timeStamp": 62.69187369796281,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_161": {
+    "wid": "wid_161",
+    "word": "me,",
+    "row": "20",
+    "col": "5",
+    "timeStamp": 62.854413380502585,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_162": {
+    "wid": "wid_162",
+    "word": "babe",
+    "row": "20",
+    "col": "6",
+    "timeStamp": 63.35364240544572,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_163": {
+    "wid": "wid_163",
+    "word": "I'm",
+    "row": "21",
+    "col": "0",
+    "timeStamp": 64.7003997750603,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_164": {
+    "wid": "wid_164",
+    "word": "done",
+    "row": "21",
+    "col": "1",
+    "timeStamp": 65.08933401542322,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_165": {
+    "wid": "wid_165",
+    "word": "with",
+    "row": "21",
+    "col": "2",
+    "timeStamp": 65.44924331247535,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_166": {
+    "wid": "wid_166",
+    "word": "you,",
+    "row": "21",
+    "col": "3",
+    "timeStamp": 65.64080793832568,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_167": {
+    "wid": "wid_167",
+    "word": "babe",
+    "row": "21",
+    "col": "4",
+    "timeStamp": 66.09359705397196,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_168": {
+    "wid": "wid_168",
+    "word": "If",
+    "row": "22",
+    "col": "0",
+    "timeStamp": 67.18493492245261,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_169": {
+    "wid": "wid_169",
+    "word": "you",
+    "row": "22",
+    "col": "1",
+    "timeStamp": 67.3532795936544,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_170": {
+    "wid": "wid_170",
+    "word": "tell",
+    "row": "22",
+    "col": "2",
+    "timeStamp": 67.82928866394923,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_171": {
+    "wid": "wid_171",
+    "word": "me",
+    "row": "22",
+    "col": "3",
+    "timeStamp": 68.01504830113754,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_172": {
+    "wid": "wid_172",
+    "word": "that",
+    "row": "22",
+    "col": "4",
+    "timeStamp": 68.18919796100135,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_173": {
+    "wid": "wid_173",
+    "word": "you",
+    "row": "22",
+    "col": "5",
+    "timeStamp": 68.35754263220315,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_174": {
+    "wid": "wid_174",
+    "word": "want",
+    "row": "22",
+    "col": "6",
+    "timeStamp": 68.56652222404,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_175": {
+    "wid": "wid_175",
+    "word": "me",
+    "row": "22",
+    "col": "7",
+    "timeStamp": 68.90321156644359,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_176": {
+    "wid": "wid_176",
+    "word": "back",
+    "row": "22",
+    "col": "8",
+    "timeStamp": 69.06575124898336,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_177": {
+    "wid": "wid_177",
+    "word": "I",
+    "row": "23",
+    "col": "0",
+    "timeStamp": 69.94810952562716,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_178": {
+    "wid": "wid_178",
+    "word": "don't",
+    "row": "23",
+    "col": "1",
+    "timeStamp": 70.10484421950468,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_179": {
+    "wid": "wid_179",
+    "word": "know",
+    "row": "23",
+    "col": "2",
+    "timeStamp": 70.60407324444805,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_180": {
+    "wid": "wid_180",
+    "word": "if",
+    "row": "23",
+    "col": "3",
+    "timeStamp": 70.77822290431209,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_181": {
+    "wid": "wid_181",
+    "word": "I",
+    "row": "23",
+    "col": "4",
+    "timeStamp": 70.9523725641759,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_182": {
+    "wid": "wid_182",
+    "word": "could",
+    "row": "23",
+    "col": "5",
+    "timeStamp": 71.11491224671568,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_183": {
+    "wid": "wid_183",
+    "word": "handle",
+    "row": "23",
+    "col": "6",
+    "timeStamp": 71.31808684989028,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_184": {
+    "wid": "wid_184",
+    "word": "that",
+    "row": "23",
+    "col": "7",
+    "timeStamp": 71.78248594286083,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_185": {
+    "wid": "wid_185",
+    "word": "'Cause",
+    "row": "24",
+    "col": "0",
+    "timeStamp": 72.56810952562728,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_186": {
+    "wid": "wid_186",
+    "word": "we",
+    "row": "24",
+    "col": "1",
+    "timeStamp": 72.73064920816705,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_187": {
+    "wid": "wid_187",
+    "word": "got",
+    "row": "24",
+    "col": "2",
+    "timeStamp": 72.89899387936885,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_188": {
+    "wid": "wid_188",
+    "word": "nothin'",
+    "row": "24",
+    "col": "3",
+    "timeStamp": 73.38661292698794,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_189": {
+    "wid": "wid_189",
+    "word": "but",
+    "row": "24",
+    "col": "4",
+    "timeStamp": 74.09482154376792,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_190": {
+    "wid": "wid_190",
+    "word": "stress",
+    "row": "24",
+    "col": "5",
+    "timeStamp": 74.45473084082005,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_191": {
+    "wid": "wid_191",
+    "word": "Holdin'",
+    "row": "25",
+    "col": "0",
+    "timeStamp": 75.39513900408542,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_192": {
+    "wid": "wid_192",
+    "word": "us",
+    "row": "25",
+    "col": "1",
+    "timeStamp": 75.73763333515103,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_193": {
+    "wid": "wid_193",
+    "word": "together",
+    "row": "25",
+    "col": "2",
+    "timeStamp": 76.08593265487912,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_194": {
+    "wid": "wid_194",
+    "word": "like",
+    "row": "25",
+    "col": "3",
+    "timeStamp": 76.85799614694247,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_195": {
+    "wid": "wid_195",
+    "word": "thread",
+    "row": "25",
+    "col": "4",
+    "timeStamp": 77.17727052335977,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_196": {
+    "wid": "wid_196",
+    "word": "If",
+    "row": "26",
+    "col": "0",
+    "timeStamp": 78.15445873197655,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_197": {
+    "wid": "wid_197",
+    "word": "you",
+    "row": "26",
+    "col": "1",
+    "timeStamp": 78.34602335782688,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_198": {
+    "wid": "wid_198",
+    "word": "tell",
+    "row": "26",
+    "col": "2",
+    "timeStamp": 78.85686236009451,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_199": {
+    "wid": "wid_199",
+    "word": "me",
+    "row": "26",
+    "col": "3",
+    "timeStamp": 79.03681700862057,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_200": {
+    "wid": "wid_200",
+    "word": "that",
+    "row": "26",
+    "col": "4",
+    "timeStamp": 79.21096666848439,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_201": {
+    "wid": "wid_201",
+    "word": "you",
+    "row": "26",
+    "col": "5",
+    "timeStamp": 79.39092131701045,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_202": {
+    "wid": "wid_202",
+    "word": "want",
+    "row": "26",
+    "col": "6",
+    "timeStamp": 79.58248594286079,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_203": {
+    "wid": "wid_203",
+    "word": "me",
+    "row": "26",
+    "col": "7",
+    "timeStamp": 79.9191752852646,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_204": {
+    "wid": "wid_204",
+    "word": "back",
+    "row": "26",
+    "col": "8",
+    "timeStamp": 80.09912993379066,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_205": {
+    "wid": "wid_205",
+    "word": "I",
+    "row": "27",
+    "col": "0",
+    "timeStamp": 80.94085328979963,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_206": {
+    "wid": "wid_206",
+    "word": "don't",
+    "row": "27",
+    "col": "1",
+    "timeStamp": 81.12661292698795,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_207": {
+    "wid": "wid_207",
+    "word": "know",
+    "row": "27",
+    "col": "2",
+    "timeStamp": 81.6432569179176,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_208": {
+    "wid": "wid_208",
+    "word": "if",
+    "row": "27",
+    "col": "3",
+    "timeStamp": 81.81160158911939,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_209": {
+    "wid": "wid_209",
+    "word": "I",
+    "row": "27",
+    "col": "4",
+    "timeStamp": 81.97994626032119,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_210": {
+    "wid": "wid_210",
+    "word": "could",
+    "row": "27",
+    "col": "5",
+    "timeStamp": 82.15409592018523,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_211": {
+    "wid": "wid_211",
+    "word": "handle",
+    "row": "27",
+    "col": "6",
+    "timeStamp": 82.35727052335983,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_212": {
+    "wid": "wid_212",
+    "word": "that",
+    "row": "27",
+    "col": "7",
+    "timeStamp": 82.86810952562723,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_213": {
+    "wid": "wid_213",
+    "word": "'Cause",
+    "row": "28",
+    "col": "0",
+    "timeStamp": 83.61890317642087,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_214": {
+    "wid": "wid_214",
+    "word": "we",
+    "row": "28",
+    "col": "1",
+    "timeStamp": 83.80466281360918,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_215": {
+    "wid": "wid_215",
+    "word": "got",
+    "row": "28",
+    "col": "2",
+    "timeStamp": 83.94978753016244,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_216": {
+    "wid": "wid_216",
+    "word": "nothin'",
+    "row": "28",
+    "col": "3",
+    "timeStamp": 84.46643152109209,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_217": {
+    "wid": "wid_217",
+    "word": "but",
+    "row": "28",
+    "col": "4",
+    "timeStamp": 85.14561519456151,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_218": {
+    "wid": "wid_218",
+    "word": "stress",
+    "row": "28",
+    "col": "5",
+    "timeStamp": 85.4823045369651,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_219": {
+    "wid": "wid_219",
+    "word": "I",
+    "row": "29",
+    "col": "0",
+    "timeStamp": 86.48656757551385,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_220": {
+    "wid": "wid_220",
+    "word": "don't",
+    "row": "29",
+    "col": "1",
+    "timeStamp": 86.68393719002643,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_221": {
+    "wid": "wid_221",
+    "word": "know",
+    "row": "29",
+    "col": "2",
+    "timeStamp": 86.84067188390395,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_222": {
+    "wid": "wid_222",
+    "word": "if",
+    "row": "29",
+    "col": "3",
+    "timeStamp": 87.02062653243001,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_223": {
+    "wid": "wid_223",
+    "word": "we",
+    "row": "29",
+    "col": "4",
+    "timeStamp": 87.18897120363181,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_224": {
+    "wid": "wid_224",
+    "word": "can",
+    "row": "29",
+    "col": "5",
+    "timeStamp": 87.51985555737338,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_225": {
+    "wid": "wid_225",
+    "word": "be",
+    "row": "29",
+    "col": "6",
+    "timeStamp": 87.88556984308752,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_226": {
+    "wid": "wid_226",
+    "word": "friends",
+    "row": "29",
+    "col": "7",
+    "timeStamp": 88.26869909478819,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_227": {
+    "wid": "wid_227",
+    "word": "You're",
+    "row": "30",
+    "col": "0",
+    "timeStamp": 89.77414127165889,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_228": {
+    "wid": "wid_228",
+    "word": "never",
+    "row": "30",
+    "col": "1",
+    "timeStamp": 89.94829093152293,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_229": {
+    "wid": "wid_229",
+    "word": "gonna",
+    "row": "30",
+    "col": "2",
+    "timeStamp": 90.27337029660225,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_230": {
+    "wid": "wid_230",
+    "word": "change",
+    "row": "30",
+    "col": "3",
+    "timeStamp": 90.63908458231663,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_231": {
+    "wid": "wid_231",
+    "word": "Stuck",
+    "row": "31",
+    "col": "0",
+    "timeStamp": 91.30860839184015,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_232": {
+    "wid": "wid_232",
+    "word": "inside",
+    "row": "31",
+    "col": "1",
+    "timeStamp": 91.68207777959537,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_233": {
+    "wid": "wid_233",
+    "word": "your",
+    "row": "31",
+    "col": "2",
+    "timeStamp": 92.34384648707851,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_234": {
+    "wid": "wid_234",
+    "word": "twisted",
+    "row": "31",
+    "col": "3",
+    "timeStamp": 92.68634081814412,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_235": {
+    "wid": "wid_235",
+    "word": "game",
+    "row": "31",
+    "col": "4",
+    "timeStamp": 93.6615789133823,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_236": {
+    "wid": "wid_236",
+    "word": "(—ed",
+    "row": "31",
+    "col": "5",
+    "timeStamp": 94.04470816508297,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_237": {
+    "wid": "wid_237",
+    "word": "game)",
+    "row": "31",
+    "col": "6",
+    "timeStamp": 94.34076258685172,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_238": {
+    "wid": "wid_238",
+    "word": "When",
+    "row": "32",
+    "col": "0",
+    "timeStamp": 95.38756530794035,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_239": {
+    "wid": "wid_239",
+    "word": "no",
+    "row": "32",
+    "col": "1",
+    "timeStamp": 95.49205510385877,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_240": {
+    "wid": "wid_240",
+    "word": "one",
+    "row": "32",
+    "col": "2",
+    "timeStamp": 95.6487897977363,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_241": {
+    "wid": "wid_241",
+    "word": "else",
+    "row": "32",
+    "col": "3",
+    "timeStamp": 95.79391451428955,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_242": {
+    "wid": "wid_242",
+    "word": "loves",
+    "row": "32",
+    "col": "4",
+    "timeStamp": 96.14801882267943,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_243": {
+    "wid": "wid_243",
+    "word": "you",
+    "row": "32",
+    "col": "5",
+    "timeStamp": 96.46729319909673,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_244": {
+    "wid": "wid_244",
+    "word": "You'll",
+    "row": "33",
+    "col": "0",
+    "timeStamp": 96.84461746213537,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_245": {
+    "wid": "wid_245",
+    "word": "know",
+    "row": "33",
+    "col": "1",
+    "timeStamp": 97.14647687256615,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_246": {
+    "wid": "wid_246",
+    "word": "you're",
+    "row": "33",
+    "col": "2",
+    "timeStamp": 97.50638616961828,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_247": {
+    "wid": "wid_247",
+    "word": "the",
+    "row": "33",
+    "col": "3",
+    "timeStamp": 97.84888050068412,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_248": {
+    "wid": "wid_248",
+    "word": "one",
+    "row": "33",
+    "col": "4",
+    "timeStamp": 98.19137483174973,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_249": {
+    "wid": "wid_249",
+    "word": "to",
+    "row": "33",
+    "col": "5",
+    "timeStamp": 98.84153356190859,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_250": {
+    "wid": "wid_250",
+    "word": "blame",
+    "row": "33",
+    "col": "6",
+    "timeStamp": 99.1840278929742,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_251": {
+    "wid": "wid_251",
+    "word": "Good",
+    "row": "34",
+    "col": "0",
+    "timeStamp": 100.94683968435743,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_252": {
+    "wid": "wid_252",
+    "word": "luck",
+    "row": "34",
+    "col": "1",
+    "timeStamp": 101.28933401542326,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_253": {
+    "wid": "wid_253",
+    "word": "findin'",
+    "row": "34",
+    "col": "2",
+    "timeStamp": 101.62602335782685,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_254": {
+    "wid": "wid_254",
+    "word": "someone",
+    "row": "34",
+    "col": "3",
+    "timeStamp": 102.32262199728257,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_255": {
+    "wid": "wid_255",
+    "word": "else",
+    "row": "34",
+    "col": "4",
+    "timeStamp": 103.01341564807626,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_256": {
+    "wid": "wid_256",
+    "word": "that",
+    "row": "34",
+    "col": "5",
+    "timeStamp": 103.37332494512839,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_257": {
+    "wid": "wid_257",
+    "word": "caters",
+    "row": "34",
+    "col": "6",
+    "timeStamp": 103.71001428753198,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_258": {
+    "wid": "wid_258",
+    "word": "to",
+    "row": "34",
+    "col": "7",
+    "timeStamp": 104.39500294966342,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_259": {
+    "wid": "wid_259",
+    "word": "ya",
+    "row": "34",
+    "col": "8",
+    "timeStamp": 104.73749728072926,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_260": {
+    "wid": "wid_260",
+    "word": "(Caters",
+    "row": "34",
+    "col": "9",
+    "timeStamp": 105.05677165714656,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_261": {
+    "wid": "wid_261",
+    "word": "to",
+    "row": "34",
+    "col": "10",
+    "timeStamp": 105.63146553469755,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_262": {
+    "wid": "wid_262",
+    "word": "ya)",
+    "row": "34",
+    "col": "11",
+    "timeStamp": 106.0958646276681,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_263": {
+    "wid": "wid_263",
+    "word": "This",
+    "row": "35",
+    "col": "0",
+    "timeStamp": 105.75337029660227,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_264": {
+    "wid": "wid_264",
+    "word": "is",
+    "row": "35",
+    "col": "1",
+    "timeStamp": 105.96234988843912,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_265": {
+    "wid": "wid_265",
+    "word": "too",
+    "row": "35",
+    "col": "2",
+    "timeStamp": 106.10166961633013,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_266": {
+    "wid": "wid_266",
+    "word": "much",
+    "row": "35",
+    "col": "3",
+    "timeStamp": 106.53123877732787,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_267": {
+    "wid": "wid_267",
+    "word": "for",
+    "row": "35",
+    "col": "4",
+    "timeStamp": 106.83309818775888,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_268": {
+    "wid": "wid_268",
+    "word": "me,",
+    "row": "35",
+    "col": "5",
+    "timeStamp": 107.02466281360921,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_269": {
+    "wid": "wid_269",
+    "word": "babe",
+    "row": "35",
+    "col": "6",
+    "timeStamp": 107.46198707664757,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_270": {
+    "wid": "wid_270",
+    "word": "(Too",
+    "row": "35",
+    "col": "7",
+    "timeStamp": 107.7174065777815,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_271": {
+    "wid": "wid_271",
+    "word": "much",
+    "row": "35",
+    "col": "8",
+    "timeStamp": 107.87414127165903,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_272": {
+    "wid": "wid_272",
+    "word": "for",
+    "row": "35",
+    "col": "9",
+    "timeStamp": 108.25146553469767,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_273": {
+    "wid": "wid_273",
+    "word": "me,",
+    "row": "35",
+    "col": "10",
+    "timeStamp": 108.4082002285752,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_274": {
+    "wid": "wid_274",
+    "word": "babe)",
+    "row": "35",
+    "col": "11",
+    "timeStamp": 108.82615941224867,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_275": {
+    "wid": "wid_275",
+    "word": "I'm",
+    "row": "36",
+    "col": "0",
+    "timeStamp": 108.91323424218058,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_276": {
+    "wid": "wid_276",
+    "word": "done",
+    "row": "36",
+    "col": "1",
+    "timeStamp": 109.2383136072599,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_277": {
+    "wid": "wid_277",
+    "word": "with",
+    "row": "36",
+    "col": "2",
+    "timeStamp": 109.62724784762281,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_278": {
+    "wid": "wid_278",
+    "word": "you,",
+    "row": "36",
+    "col": "3",
+    "timeStamp": 109.7955925188246,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_279": {
+    "wid": "wid_279",
+    "word": "babe",
+    "row": "36",
+    "col": "4",
+    "timeStamp": 110.26579660045718,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_280": {
+    "wid": "wid_280",
+    "word": "If",
+    "row": "37",
+    "col": "0",
+    "timeStamp": 111.316499548303,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_281": {
+    "wid": "wid_281",
+    "word": "you",
+    "row": "37",
+    "col": "1",
+    "timeStamp": 111.4848442195048,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_282": {
+    "wid": "wid_282",
+    "word": "tell",
+    "row": "37",
+    "col": "2",
+    "timeStamp": 111.99568322177242,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_283": {
+    "wid": "wid_283",
+    "word": "me",
+    "row": "37",
+    "col": "3",
+    "timeStamp": 112.25110272290613,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_284": {
+    "wid": "wid_284",
+    "word": "that",
+    "row": "37",
+    "col": "4",
+    "timeStamp": 112.33817755283803,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_285": {
+    "wid": "wid_285",
+    "word": "you",
+    "row": "37",
+    "col": "5",
+    "timeStamp": 112.51813220136432,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_286": {
+    "wid": "wid_286",
+    "word": "want",
+    "row": "37",
+    "col": "6",
+    "timeStamp": 112.69228186122814,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_287": {
+    "wid": "wid_287",
+    "word": "me",
+    "row": "37",
+    "col": "7",
+    "timeStamp": 113.03477619229398,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_288": {
+    "wid": "wid_288",
+    "word": "back",
+    "row": "37",
+    "col": "8",
+    "timeStamp": 113.20892585215779,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_289": {
+    "wid": "wid_289",
+    "word": "(Oh",
+    "row": "37",
+    "col": "9",
+    "timeStamp": 113.28634081814425,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_290": {
+    "wid": "wid_290",
+    "word": "oh)",
+    "row": "37",
+    "col": "10",
+    "timeStamp": 114.02357437823503,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_291": {
+    "wid": "wid_291",
+    "word": "I",
+    "row": "38",
+    "col": "0",
+    "timeStamp": 114.05645419682901,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_292": {
+    "wid": "wid_292",
+    "word": "don't",
+    "row": "38",
+    "col": "1",
+    "timeStamp": 114.21899387936878,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_293": {
+    "wid": "wid_293",
+    "word": "know",
+    "row": "38",
+    "col": "2",
+    "timeStamp": 114.75885782494697,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_294": {
+    "wid": "wid_294",
+    "word": "if",
+    "row": "38",
+    "col": "3",
+    "timeStamp": 114.93300748481101,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_295": {
+    "wid": "wid_295",
+    "word": "I",
+    "row": "38",
+    "col": "4",
+    "timeStamp": 115.09554716735056,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_296": {
+    "wid": "wid_296",
+    "word": "could",
+    "row": "38",
+    "col": "5",
+    "timeStamp": 115.25808684989033,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_297": {
+    "wid": "wid_297",
+    "word": "handle",
+    "row": "38",
+    "col": "6",
+    "timeStamp": 115.46706644172696,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_298": {
+    "wid": "wid_298",
+    "word": "that",
+    "row": "38",
+    "col": "7",
+    "timeStamp": 115.99532040998088,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_299": {
+    "wid": "wid_299",
+    "word": "(No)",
+    "row": "38",
+    "col": "8",
+    "timeStamp": 116.14044512653436,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_300": {
+    "wid": "wid_300",
+    "word": "'Cause",
+    "row": "39",
+    "col": "0",
+    "timeStamp": 116.75577392472019,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_301": {
+    "wid": "wid_301",
+    "word": "we",
+    "row": "39",
+    "col": "1",
+    "timeStamp": 116.88928866394917,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_302": {
+    "wid": "wid_302",
+    "word": "got",
+    "row": "39",
+    "col": "2",
+    "timeStamp": 117.05763333515097,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_303": {
+    "wid": "wid_303",
+    "word": "nothin'",
+    "row": "39",
+    "col": "3",
+    "timeStamp": 117.53364240544579,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_304": {
+    "wid": "wid_304",
+    "word": "but",
+    "row": "39",
+    "col": "4",
+    "timeStamp": 118.22443605623948,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_305": {
+    "wid": "wid_305",
+    "word": "stress",
+    "row": "39",
+    "col": "5",
+    "timeStamp": 118.56693038730532,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_306": {
+    "wid": "wid_306",
+    "word": "Holdin'",
+    "row": "40",
+    "col": "0",
+    "timeStamp": 119.57119342585406,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_307": {
+    "wid": "wid_307",
+    "word": "us",
+    "row": "40",
+    "col": "1",
+    "timeStamp": 119.90788276825765,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_308": {
+    "wid": "wid_308",
+    "word": "together",
+    "row": "40",
+    "col": "2",
+    "timeStamp": 120.23876712199922,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_309": {
+    "wid": "wid_309",
+    "word": "like",
+    "row": "40",
+    "col": "3",
+    "timeStamp": 120.98180567075201,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_310": {
+    "wid": "wid_310",
+    "word": "thread",
+    "row": "40",
+    "col": "4",
+    "timeStamp": 121.3184950131556,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_311": {
+    "wid": "wid_311",
+    "word": "If",
+    "row": "41",
+    "col": "0",
+    "timeStamp": 122.32856304036636,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_312": {
+    "wid": "wid_312",
+    "word": "you",
+    "row": "41",
+    "col": "1",
+    "timeStamp": 122.50851768889265,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_313": {
+    "wid": "wid_313",
+    "word": "tell",
+    "row": "41",
+    "col": "2",
+    "timeStamp": 123.04838163447084,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_314": {
+    "wid": "wid_314",
+    "word": "me",
+    "row": "41",
+    "col": "3",
+    "timeStamp": 123.19931133968612,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_315": {
+    "wid": "wid_315",
+    "word": "that",
+    "row": "41",
+    "col": "4",
+    "timeStamp": 123.36185102222589,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_316": {
+    "wid": "wid_316",
+    "word": "you",
+    "row": "41",
+    "col": "5",
+    "timeStamp": 123.52439070476566,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_317": {
+    "wid": "wid_317",
+    "word": "want",
+    "row": "41",
+    "col": "6",
+    "timeStamp": 123.69273537596746,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_318": {
+    "wid": "wid_318",
+    "word": "me",
+    "row": "41",
+    "col": "7",
+    "timeStamp": 124.00620476372251,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_319": {
+    "wid": "wid_319",
+    "word": "back",
+    "row": "41",
+    "col": "8",
+    "timeStamp": 124.21518435555913,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_320": {
+    "wid": "wid_320",
+    "word": "(Want",
+    "row": "41",
+    "col": "9",
+    "timeStamp": 124.0739598657633,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_321": {
+    "wid": "wid_321",
+    "word": "me",
+    "row": "41",
+    "col": "10",
+    "timeStamp": 124.25971950295138,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_322": {
+    "wid": "wid_322",
+    "word": "back)",
+    "row": "41",
+    "col": "11",
+    "timeStamp": 124.77055850521901,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_323": {
+    "wid": "wid_323",
+    "word": "I",
+    "row": "42",
+    "col": "0",
+    "timeStamp": 125.16334762086535,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_324": {
+    "wid": "wid_324",
+    "word": "don't",
+    "row": "42",
+    "col": "1",
+    "timeStamp": 125.32008231474288,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_325": {
+    "wid": "wid_325",
+    "word": "know",
+    "row": "42",
+    "col": "2",
+    "timeStamp": 125.81931133968624,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_326": {
+    "wid": "wid_326",
+    "word": "if",
+    "row": "42",
+    "col": "3",
+    "timeStamp": 125.98765601088803,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_327": {
+    "wid": "wid_327",
+    "word": "I",
+    "row": "42",
+    "col": "4",
+    "timeStamp": 126.14439070476556,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_328": {
+    "wid": "wid_328",
+    "word": "could",
+    "row": "42",
+    "col": "5",
+    "timeStamp": 126.30693038730533,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_329": {
+    "wid": "wid_329",
+    "word": "handle",
+    "row": "42",
+    "col": "6",
+    "timeStamp": 126.52751995646622,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_330": {
+    "wid": "wid_330",
+    "word": "that",
+    "row": "42",
+    "col": "7",
+    "timeStamp": 126.98611406077475,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_331": {
+    "wid": "wid_331",
+    "word": "(Handle",
+    "row": "42",
+    "col": "8",
+    "timeStamp": 127.12543378866576,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_332": {
+    "wid": "wid_332",
+    "word": "that)",
+    "row": "42",
+    "col": "9",
+    "timeStamp": 127.60724784762283,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_333": {
+    "wid": "wid_333",
+    "word": "'Cause",
+    "row": "43",
+    "col": "0",
+    "timeStamp": 127.80076258685199,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_334": {
+    "wid": "wid_334",
+    "word": "we",
+    "row": "43",
+    "col": "1",
+    "timeStamp": 127.96910725805378,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_335": {
+    "wid": "wid_335",
+    "word": "got",
+    "row": "43",
+    "col": "2",
+    "timeStamp": 128.12003696326906,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_336": {
+    "wid": "wid_336",
+    "word": "nothin'",
+    "row": "43",
+    "col": "3",
+    "timeStamp": 128.5844360562396,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_337": {
+    "wid": "wid_337",
+    "word": "but",
+    "row": "43",
+    "col": "4",
+    "timeStamp": 129.2752297070333,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_338": {
+    "wid": "wid_338",
+    "word": "stress",
+    "row": "43",
+    "col": "5",
+    "timeStamp": 129.60611406077487,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_339": {
+    "wid": "wid_339",
+    "word": "I",
+    "row": "44",
+    "col": "0",
+    "timeStamp": 130.63940204263417,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_340": {
+    "wid": "wid_340",
+    "word": "don't",
+    "row": "44",
+    "col": "1",
+    "timeStamp": 130.80194172517395,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_341": {
+    "wid": "wid_341",
+    "word": "know",
+    "row": "44",
+    "col": "2",
+    "timeStamp": 130.95867641905147,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_342": {
+    "wid": "wid_342",
+    "word": "if",
+    "row": "44",
+    "col": "3",
+    "timeStamp": 131.12702109025327,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_343": {
+    "wid": "wid_343",
+    "word": "we",
+    "row": "44",
+    "col": "4",
+    "timeStamp": 131.28956077279304,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_344": {
+    "wid": "wid_344",
+    "word": "can",
+    "row": "44",
+    "col": "5",
+    "timeStamp": 131.64947006984517,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_345": {
+    "wid": "wid_345",
+    "word": "be",
+    "row": "44",
+    "col": "6",
+    "timeStamp": 132.0093793668973,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_346": {
+    "wid": "wid_346",
+    "word": "friends",
+    "row": "44",
+    "col": "7",
+    "timeStamp": 132.3286537433146,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_347": {
+    "wid": "wid_347",
+    "word": "We",
+    "row": "45",
+    "col": "0",
+    "timeStamp": 134.09917528526466,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_348": {
+    "wid": "wid_348",
+    "word": "got",
+    "row": "45",
+    "col": "1",
+    "timeStamp": 134.36620476372264,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_349": {
+    "wid": "wid_349",
+    "word": "nothin'",
+    "row": "45",
+    "col": "2",
+    "timeStamp": 134.7145040834505,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_350": {
+    "wid": "wid_350",
+    "word": "We",
+    "row": "46",
+    "col": "0",
+    "timeStamp": 136.17155623764552,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_351": {
+    "wid": "wid_351",
+    "word": "got",
+    "row": "46",
+    "col": "1",
+    "timeStamp": 136.43858571610372,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_352": {
+    "wid": "wid_352",
+    "word": "nothin'",
+    "row": "46",
+    "col": "2",
+    "timeStamp": 136.79849501315584,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_353": {
+    "wid": "wid_353",
+    "word": "but",
+    "row": "46",
+    "col": "3",
+    "timeStamp": 137.52992358458437,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_354": {
+    "wid": "wid_354",
+    "word": "stress",
+    "row": "46",
+    "col": "4",
+    "timeStamp": 137.8898328816365,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_355": {
+    "wid": "wid_355",
+    "word": "Holdin'",
+    "row": "47",
+    "col": "0",
+    "timeStamp": 138.89409592018524,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_356": {
+    "wid": "wid_356",
+    "word": "us",
+    "row": "47",
+    "col": "1",
+    "timeStamp": 139.19595533061602,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_357": {
+    "wid": "wid_357",
+    "word": "together,",
+    "row": "47",
+    "col": "2",
+    "timeStamp": 139.55586462766814,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_358": {
+    "wid": "wid_358",
+    "word": "baby",
+    "row": "47",
+    "col": "3",
+    "timeStamp": 140.21763333515128,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_359": {
+    "wid": "wid_359",
+    "word": "(Baby)",
+    "row": "47",
+    "col": "4",
+    "timeStamp": 140.88520703129643,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_360": {
+    "wid": "wid_360",
+    "word": "Holdin'",
+    "row": "48",
+    "col": "0",
+    "timeStamp": 141.60502562540069,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_361": {
+    "wid": "wid_361",
+    "word": "us",
+    "row": "48",
+    "col": "1",
+    "timeStamp": 141.98234988843933,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_362": {
+    "wid": "wid_362",
+    "word": "together,",
+    "row": "48",
+    "col": "2",
+    "timeStamp": 142.3364541968292,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_363": {
+    "wid": "wid_363",
+    "word": "baby",
+    "row": "48",
+    "col": "3",
+    "timeStamp": 142.9924179156501,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_364": {
+    "wid": "wid_364",
+    "word": "(Baby)",
+    "row": "48",
+    "col": "4",
+    "timeStamp": 143.6890165551058,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_365": {
+    "wid": "wid_365",
+    "word": "We",
+    "row": "49",
+    "col": "0",
+    "timeStamp": 144.3798102058995,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_366": {
+    "wid": "wid_366",
+    "word": "got",
+    "row": "49",
+    "col": "1",
+    "timeStamp": 144.72230453696534,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_367": {
+    "wid": "wid_367",
+    "word": "nothin'",
+    "row": "49",
+    "col": "2",
+    "timeStamp": 145.09382381134174,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_368": {
+    "wid": "wid_368",
+    "word": "(Nothin')",
+    "row": "49",
+    "col": "3",
+    "timeStamp": 145.79042245079745,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_369": {
+    "wid": "wid_369",
+    "word": "We",
+    "row": "50",
+    "col": "0",
+    "timeStamp": 147.21264467301967,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_370": {
+    "wid": "wid_370",
+    "word": "got",
+    "row": "50",
+    "col": "1",
+    "timeStamp": 147.5203090721127,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_371": {
+    "wid": "wid_371",
+    "word": "nothin'",
+    "row": "50",
+    "col": "2",
+    "timeStamp": 147.8744133805028,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_372": {
+    "wid": "wid_372",
+    "word": "but",
+    "row": "50",
+    "col": "3",
+    "timeStamp": 148.7335517024983,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_373": {
+    "wid": "wid_373",
+    "word": "stress",
+    "row": "50",
+    "col": "4",
+    "timeStamp": 148.87867641905154,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_374": {
+    "wid": "wid_374",
+    "word": "Holdin'",
+    "row": "51",
+    "col": "0",
+    "timeStamp": 149.90035442358658,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_375": {
+    "wid": "wid_375",
+    "word": "us",
+    "row": "51",
+    "col": "1",
+    "timeStamp": 150.21962880000387,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_376": {
+    "wid": "wid_376",
+    "word": "together,",
+    "row": "51",
+    "col": "2",
+    "timeStamp": 150.5447081650832,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_377": {
+    "wid": "wid_377",
+    "word": "baby",
+    "row": "51",
+    "col": "3",
+    "timeStamp": 151.29935669116026,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_378": {
+    "wid": "wid_378",
+    "word": "(Baby)",
+    "row": "51",
+    "col": "4",
+    "timeStamp": 151.97273537596766,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_379": {
+    "wid": "wid_379",
+    "word": "Holdin'",
+    "row": "52",
+    "col": "0",
+    "timeStamp": 152.68094399274764,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_380": {
+    "wid": "wid_380",
+    "word": "us",
+    "row": "52",
+    "col": "1",
+    "timeStamp": 153.00602335782696,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_381": {
+    "wid": "wid_381",
+    "word": "together,",
+    "row": "52",
+    "col": "2",
+    "timeStamp": 153.3833476208656,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_382": {
+    "wid": "wid_382",
+    "word": "baby",
+    "row": "52",
+    "col": "3",
+    "timeStamp": 154.05092131701076,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_383": {
+    "wid": "wid_383",
+    "word": "If",
+    "row": "53",
+    "col": "0",
+    "timeStamp": 155.45767868662506,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_384": {
+    "wid": "wid_384",
+    "word": "you",
+    "row": "53",
+    "col": "1",
+    "timeStamp": 155.62021836916483,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_385": {
+    "wid": "wid_385",
+    "word": "tell",
+    "row": "53",
+    "col": "2",
+    "timeStamp": 156.11364240544594,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_386": {
+    "wid": "wid_386",
+    "word": "me",
+    "row": "53",
+    "col": "3",
+    "timeStamp": 156.29940204263403,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_387": {
+    "wid": "wid_387",
+    "word": "that",
+    "row": "53",
+    "col": "4",
+    "timeStamp": 156.4619417251738,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_388": {
+    "wid": "wid_388",
+    "word": "you",
+    "row": "53",
+    "col": "5",
+    "timeStamp": 156.6477013623621,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_389": {
+    "wid": "wid_389",
+    "word": "want",
+    "row": "53",
+    "col": "6",
+    "timeStamp": 156.81024104490166,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_390": {
+    "wid": "wid_390",
+    "word": "me",
+    "row": "53",
+    "col": "7",
+    "timeStamp": 157.1527353759675,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_391": {
+    "wid": "wid_391",
+    "word": "back",
+    "row": "53",
+    "col": "8",
+    "timeStamp": 157.31527505850727,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_392": {
+    "wid": "wid_392",
+    "word": "I",
+    "row": "54",
+    "col": "0",
+    "timeStamp": 158.18021836916478,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_393": {
+    "wid": "wid_393",
+    "word": "don't",
+    "row": "54",
+    "col": "1",
+    "timeStamp": 158.34275805170455,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_394": {
+    "wid": "wid_394",
+    "word": "know",
+    "row": "54",
+    "col": "2",
+    "timeStamp": 158.90584195193128,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_395": {
+    "wid": "wid_395",
+    "word": "if",
+    "row": "54",
+    "col": "3",
+    "timeStamp": 159.07418662313307,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_396": {
+    "wid": "wid_396",
+    "word": "I",
+    "row": "54",
+    "col": "4",
+    "timeStamp": 159.24253129433487,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_397": {
+    "wid": "wid_397",
+    "word": "could",
+    "row": "54",
+    "col": "5",
+    "timeStamp": 159.4050709768744,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_398": {
+    "wid": "wid_398",
+    "word": "handle",
+    "row": "54",
+    "col": "6",
+    "timeStamp": 159.58502562540048,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_399": {
+    "wid": "wid_399",
+    "word": "that",
+    "row": "54",
+    "col": "7",
+    "timeStamp": 160.0958646276681,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_400": {
+    "wid": "wid_400",
+    "word": "'Cause",
+    "row": "55",
+    "col": "0",
+    "timeStamp": 160.8389031764209,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_401": {
+    "wid": "wid_401",
+    "word": "we",
+    "row": "55",
+    "col": "1",
+    "timeStamp": 160.98402789297438,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_402": {
+    "wid": "wid_402",
+    "word": "got",
+    "row": "55",
+    "col": "2",
+    "timeStamp": 161.1407625868519,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_403": {
+    "wid": "wid_403",
+    "word": "nothin'",
+    "row": "55",
+    "col": "3",
+    "timeStamp": 161.63999161179504,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_404": {
+    "wid": "wid_404",
+    "word": "but",
+    "row": "55",
+    "col": "4",
+    "timeStamp": 162.3772251718858,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_405": {
+    "wid": "wid_405",
+    "word": "stress",
+    "row": "55",
+    "col": "5",
+    "timeStamp": 162.73132948027592,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_406": {
+    "wid": "wid_406",
+    "word": "Holdin'",
+    "row": "56",
+    "col": "0",
+    "timeStamp": 163.7239825415004,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_407": {
+    "wid": "wid_407",
+    "word": "us",
+    "row": "56",
+    "col": "1",
+    "timeStamp": 164.0432569179177,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_408": {
+    "wid": "wid_408",
+    "word": "together",
+    "row": "56",
+    "col": "2",
+    "timeStamp": 164.37994626032128,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_409": {
+    "wid": "wid_409",
+    "word": "like",
+    "row": "56",
+    "col": "3",
+    "timeStamp": 165.07073991111497,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_410": {
+    "wid": "wid_410",
+    "word": "thread",
+    "row": "56",
+    "col": "4",
+    "timeStamp": 165.44225918549137,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_411": {
+    "wid": "wid_411",
+    "word": "If",
+    "row": "57",
+    "col": "0",
+    "timeStamp": 166.46974217868865,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_412": {
+    "wid": "wid_412",
+    "word": "you",
+    "row": "57",
+    "col": "1",
+    "timeStamp": 166.66130680453898,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_413": {
+    "wid": "wid_413",
+    "word": "tell",
+    "row": "57",
+    "col": "2",
+    "timeStamp": 167.16634081814436,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_414": {
+    "wid": "wid_414",
+    "word": "me",
+    "row": "57",
+    "col": "3",
+    "timeStamp": 167.31727052335987,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_415": {
+    "wid": "wid_415",
+    "word": "that",
+    "row": "57",
+    "col": "4",
+    "timeStamp": 167.46820022857514,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_416": {
+    "wid": "wid_416",
+    "word": "you",
+    "row": "57",
+    "col": "5",
+    "timeStamp": 167.62493492245267,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_417": {
+    "wid": "wid_417",
+    "word": "want",
+    "row": "57",
+    "col": "6",
+    "timeStamp": 167.816499548303,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_418": {
+    "wid": "wid_418",
+    "word": "me",
+    "row": "57",
+    "col": "7",
+    "timeStamp": 168.15318889070682,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_419": {
+    "wid": "wid_419",
+    "word": "back",
+    "row": "57",
+    "col": "8",
+    "timeStamp": 168.31572857324636,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_420": {
+    "wid": "wid_420",
+    "word": "I",
+    "row": "58",
+    "col": "0",
+    "timeStamp": 169.29291678186314,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_421": {
+    "wid": "wid_421",
+    "word": "don't",
+    "row": "58",
+    "col": "1",
+    "timeStamp": 169.4554564644027,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_422": {
+    "wid": "wid_422",
+    "word": "know",
+    "row": "58",
+    "col": "2",
+    "timeStamp": 169.9604904780083,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_423": {
+    "wid": "wid_423",
+    "word": "if",
+    "row": "58",
+    "col": "3",
+    "timeStamp": 170.11722517188582,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_424": {
+    "wid": "wid_424",
+    "word": "I",
+    "row": "58",
+    "col": "4",
+    "timeStamp": 170.27395986576335,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_425": {
+    "wid": "wid_425",
+    "word": "could",
+    "row": "58",
+    "col": "5",
+    "timeStamp": 170.44230453696514,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_426": {
+    "wid": "wid_426",
+    "word": "handle",
+    "row": "58",
+    "col": "6",
+    "timeStamp": 170.61064920816693,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_427": {
+    "wid": "wid_427",
+    "word": "that",
+    "row": "58",
+    "col": "7",
+    "timeStamp": 171.1621231310694,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_428": {
+    "wid": "wid_428",
+    "word": "'Cause",
+    "row": "59",
+    "col": "0",
+    "timeStamp": 171.9245267591873,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_429": {
+    "wid": "wid_429",
+    "word": "we",
+    "row": "59",
+    "col": "1",
+    "timeStamp": 172.0754564644028,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_430": {
+    "wid": "wid_430",
+    "word": "got",
+    "row": "59",
+    "col": "2",
+    "timeStamp": 172.179946260321,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_431": {
+    "wid": "wid_431",
+    "word": "nothin'",
+    "row": "59",
+    "col": "3",
+    "timeStamp": 172.80108004716908,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_432": {
+    "wid": "wid_432",
+    "word": "but",
+    "row": "59",
+    "col": "4",
+    "timeStamp": 173.40479886803087,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_433": {
+    "wid": "wid_433",
+    "word": "stress",
+    "row": "59",
+    "col": "5",
+    "timeStamp": 173.72987823311018,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_434": {
+    "wid": "wid_434",
+    "word": "I",
+    "row": "60",
+    "col": "0",
+    "timeStamp": 174.780581180956,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_435": {
+    "wid": "wid_435",
+    "word": "don't",
+    "row": "60",
+    "col": "1",
+    "timeStamp": 174.94312086349555,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_436": {
+    "wid": "wid_436",
+    "word": "know",
+    "row": "60",
+    "col": "2",
+    "timeStamp": 175.10566054603532,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_437": {
+    "wid": "wid_437",
+    "word": "if",
+    "row": "60",
+    "col": "3",
+    "timeStamp": 175.27981020589914,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_438": {
+    "wid": "wid_438",
+    "word": "we",
+    "row": "60",
+    "col": "4",
+    "timeStamp": 175.4597648544252,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_439": {
+    "wid": "wid_439",
+    "word": "can",
+    "row": "60",
+    "col": "5",
+    "timeStamp": 175.79645419682902,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_440": {
+    "wid": "wid_440",
+    "word": "be",
+    "row": "60",
+    "col": "6",
+    "timeStamp": 176.13894852789463,
+    "set": true,
+    "beforePlayHead": false
+  },
+  "wid_441": {
+    "wid": "wid_441",
+    "word": "friends",
+    "row": "60",
+    "col": "7",
+    "timeStamp": 176.504662813609,
+    "set": true,
+    "beforePlayHead": false
+  }
+}
+
+

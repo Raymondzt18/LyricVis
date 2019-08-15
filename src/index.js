@@ -1,12 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import LyricAuthorApp from './LyricAuthorApp'
+import LyricVisApp from './LyricVisApp'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function About() {
+    return <h2>About</h2>;
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+function Users() {
+    return <h2>Users</h2>;
+}
+
+
+function AppRouter() {
+    return (
+        <Router>
+            <div className="fillHeight">
+                <Navbar bg="dark" variant="dark">
+                    <Navbar.Brand>Lyric Vis</Navbar.Brand>
+                    <Nav to="/">
+                        <Link to="/">Author</Link>
+                    </Nav>
+                    <Nav>
+                        <Link to="/vis/">Vis</Link>
+                    </Nav>
+                    <Nav>
+                        <Link to="/users/">Users</Link>
+                    </Nav>
+                </Navbar>
+
+                <Route path="/" exact component={LyricAuthorApp} />
+                <Route path="/vis/" component={LyricVisApp} />
+                <Route path="/users/" component={Users} />
+            </div>
+        </Router>
+    );
+}
+
+ReactDOM.render(<AppRouter></AppRouter>, document.getElementById("root"));
+
+
