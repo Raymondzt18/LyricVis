@@ -1,10 +1,12 @@
 import React from 'react';
 import WaveSurfer from 'wavesurfer.js'
-import mp3_file from './FarAway.mp3'
+import mp3_file from './MyLady.mp3'
+import jsonFile from './samplelyricjson2'
 import Card from 'react-bootstrap/Card'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
+import Chrome from 'react-color'
 
 class LyricVisApp extends React.Component {
     constructor(props) {
@@ -14,7 +16,13 @@ class LyricVisApp extends React.Component {
             wavePlayer: null,
             wordObjectMap: null,
             wordObjectMatrix: null,
-            currentWIDCount: 0
+            currentWIDCount: 0,
+            currentRow: 0,
+            centerWordSize: 60,
+            centerWordColor: 'rgb(255,255,255)',
+            lineWordSize: 30,
+            lineWordFilledColor: 'rgb(0,0,0)',
+            lineWordEmptyColor: 'rgb(255,255,255)'
         }
     }
 
@@ -22,9 +30,11 @@ class LyricVisApp extends React.Component {
 
         let wavePlayer = WaveSurfer.create({ container: '#wavePlayer', waveColor: '#5B88C8', progressColor: '#264E73' });
         wavePlayer.on('seek', this.setNewWIDCount.bind(this));
-
-
         wavePlayer.load(mp3_file);
+        fetch(jsonFile).then((r) => r.text()).then(text  => {
+            this.setWordObjectMap(text);
+        })  
+        //this.buildWordObjectMatrix();
         let analyser = wavePlayer.backend.analyser;
 
         this.initCanvas.bind(this);
@@ -51,7 +61,6 @@ class LyricVisApp extends React.Component {
 
         let boundAnim = animationLooper.bind(this);
 
-        // set to the size of canvas
         canvas = document.getElementById("waveVis");
 
         frequency_array = new Uint8Array(this.state.analyser.frequencyBinCount);
@@ -62,6 +71,7 @@ class LyricVisApp extends React.Component {
             }
 
             //Resizing clears the canvas smh
+            //Set to the size of canvas
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
             ctx = canvas.getContext("2d");
@@ -76,15 +86,14 @@ class LyricVisApp extends React.Component {
             ctx.fillStyle = gradient;
             ctx.fillRect(0, 0, canvas.width, canvas.height);*/
 
-            //draw a circle
-            ctx.beginPath();
-            ctx.arc(center_x, center_y, radius, 0, 2 * Math.PI);
-            ctx.stroke();
+            
+
+            this.state.analyser.getByteFrequencyData(frequency_array);
 
             //Fill circle
             ctx.beginPath();
-            ctx.arc(center_x, center_y, radius - 5, 0, 2 * Math.PI);
-            ctx.fillStyle = "#000000";
+            ctx.arc(center_x, center_y, frequency_array[0]>170? radius-3: radius-5, 0, 2 * Math.PI);
+            ctx.fillStyle = frequency_array[0]>170? "rgb(20,20,20)": "rgb(0,0,0)";
             ctx.globalAlpha = 0.5;
             ctx.fill();
             ctx.stroke();
@@ -93,8 +102,7 @@ class LyricVisApp extends React.Component {
             this.tryDisplayWord(ctx, center_x, center_y);
             this.tryDisplayLine(ctx, canvas.width / 4, canvas.height * 0.9);
 
-            this.state.analyser.getByteFrequencyData(frequency_array);
-            for (var i = 0; i < bars; i++) {
+            for (var i = 0+50; i < bars+50; i++) {
 
                 //divide a circle into equal parts
                 let rads = Math.PI * 2 / bars;
@@ -132,6 +140,8 @@ class LyricVisApp extends React.Component {
         boundAnim();
     }
 
+
+    //Sets currentWIDCount, depending on where current playhead is
     setNewWIDCount() {
         let newWIDCount = 0;
         let currentTime = this.state.wavePlayer.getCurrentTime();
@@ -158,6 +168,7 @@ class LyricVisApp extends React.Component {
         }
     }
 
+    //Try to display the word at the center of page
     tryDisplayWord(ctx, x, y) {
         if (this.state.wordObjectMap == null) {
             //Draw the word
@@ -165,7 +176,7 @@ class LyricVisApp extends React.Component {
             ctx.fillStyle = "red";
             ctx.globalAlpha = 1.0;
             ctx.textAlign = "center";
-            ctx.fillText("Hello World", x, y);
+            ctx.fillText("Choose Struct", x, y);
             return;
         }
         let currentWIDCount = this.state.currentWIDCount;
@@ -175,7 +186,7 @@ class LyricVisApp extends React.Component {
             if (this.state.wordObjectMap['wid_' + nextWidCount].word == ' ') {
                 nextWidCount++;
             }
-            //Check if next object time is passed
+            //Check if next object time is passed, if it has, update current displayed word to that word.
             if (this.state.wordObjectMap['wid_' + nextWidCount].timeStamp < this.state.wavePlayer.getCurrentTime()) {
                 currentWIDCount++;
             }
@@ -183,13 +194,14 @@ class LyricVisApp extends React.Component {
 
         let currentWordObject = this.state.wordObjectMap['wid_' + currentWIDCount];
 
+        //If currentWordObject doesn't exist or their timestamp isn't reached yet, don't display word
         if (!currentWordObject || currentWordObject.timeStamp > this.state.wavePlayer.getCurrentTime()) {
-
             return;
         }
         let timeDiff = this.state.wavePlayer.getCurrentTime() - currentWordObject.timeStamp;
-        ctx.font = ((Math.log(timeDiff + 1)) * 10 + 60) + "px Comic Sans MS";
-        ctx.fillStyle = "white";
+        let sizeIncrease = ((Math.log(timeDiff + 1)) * 10);
+        ctx.font = (sizeIncrease + this.state.centerWordSize) + "px Comic Sans MS";
+        ctx.fillStyle = this.state.centerWordColor;
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
 
@@ -213,28 +225,40 @@ class LyricVisApp extends React.Component {
             return;
         }
         let currentWordObjectRow = currentWordObject.row;
+        //let currentWordObjectRow = this.state.currentRow;
         let wordObjectArr = this.state.wordObjectMatrix[currentWordObjectRow];
 
+        //Measure total length of line to determine where to place lyrics
         let totalLength = 0;
-
         for (let wordObj of wordObjectArr) {
-            ctx.font = "30px Comic Sans MS";
+            ctx.font = this.state.lineWordSize+"px Comic Sans MS";
             ctx.textAlign = "left";
             ctx.textBaseline = "middle";
             totalLength += ctx.measureText(wordObj.word + ' ').width;
         }
-
         let startPoint = window.innerWidth / 2 - totalLength / 2
 
+        //Find fade in and fade out times
+        let startTime = wordObjectArr[0].timeStamp
+        let endTime = wordObjectArr[wordObjectArr.length-1].timeStamp
+        let timeUntilStart = (startTime - this.state.wavePlayer.getCurrentTime()) > 0? (startTime - this.state.wavePlayer.getCurrentTime()) : 0;
+        let timeAfterEnded = (this.state.wavePlayer.getCurrentTime() - endTime) > 0 ? (this.state.wavePlayer.getCurrentTime() - endTime) : 0;
+        let lineAlpha = 1;
+        if(this.state.wavePlayer.getCurrentTime() < startTime){
+            lineAlpha = (lineAlpha - timeUntilStart) < 0? 0:(lineAlpha - timeUntilStart);
+        } else if(this.state.wavePlayer.getCurrentTime() > endTime){
+            lineAlpha = (lineAlpha - timeAfterEnded) < 0? 0:(lineAlpha - timeAfterEnded);
+        }
+        
 
         let offset = 0
         for (let wordObj of wordObjectArr) {
             ctx.beginPath();
-            ctx.font = wordObj.wid == ('wid_' + currentWIDCount) ? "30px Comic Sans MS" : "30px Comic Sans MS";
-            ctx.fillStyle = wordObj.timeStamp < this.state.wavePlayer.getCurrentTime() ? "black" : "white";
+            ctx.font = wordObj.wid == ('wid_' + currentWIDCount) ? this.state.lineWordSize+"px Comic Sans MS" : this.state.lineWordSize+"px Comic Sans MS";
+            ctx.fillStyle = wordObj.timeStamp < this.state.wavePlayer.getCurrentTime() ? this.state.lineWordFilledColor : this.state.lineWordEmptyColor;
             ctx.textAlign = "left";
             ctx.textBaseline = "middle";
-            ctx.globalAlpha = 1;
+            ctx.globalAlpha = lineAlpha;
             ctx.fillText(wordObj.word, startPoint + offset, y);
             ctx.stroke();
 
@@ -251,6 +275,8 @@ class LyricVisApp extends React.Component {
             //Calculating next offset
             offset += ctx.measureText(wordObj.word + ' ').width;
         }
+
+        ctx.globalAlpha = 1;
     }
 
     loadSong(files) {
@@ -260,7 +286,6 @@ class LyricVisApp extends React.Component {
     changeBackground(files) {
         document.getElementById('waveVis').style.backgroundImage = 'url(' + URL.createObjectURL(files[0]) + ')';
         document.getElementById('waveVis').style.backgroundSize = '100% 100%';
-
     }
 
     setWordObjectMap(wordObjectJSONString) {
@@ -297,26 +322,127 @@ class LyricVisApp extends React.Component {
         return resultMatrix;
     }
 
+    updateLineFontSize(value){
+        this.setState({
+            lineWordSize: value
+        });
+    }
+
+    //Updates the center word size
+    updateWordFontSize(value){
+        this.setState({
+            centerWordSize: value
+        });
+    }
+
+    //Update the center word color
+    updateWordColor(colorObject){
+        let r = colorObject.rgb.r
+        let g = colorObject.rgb.g
+        let b = colorObject.rgb.b
+        this.setState({
+            centerWordColor: `rgb(${r},${g},${b})`
+        });
+    }
+
+    updateLineWordFilledColor(colorObject){
+        let r = colorObject.rgb.r
+        let g = colorObject.rgb.g
+        let b = colorObject.rgb.b
+        this.setState({
+            lineWordFilledColor: `rgb(${r},${g},${b})`
+        });
+    }
+
+    updateLineWordEmptyColor(colorObject){
+        let r = colorObject.rgb.r
+        let g = colorObject.rgb.g
+        let b = colorObject.rgb.b
+        this.setState({
+            lineWordEmptyColor: `rgb(${r},${g},${b})`
+        });
+    }
+
     render() {
 
         return (
             <div>
                 <canvas id="waveVis"></canvas>
-
                 <Card className="text-center">
                     <Card.Body>
                         <div id="wavePlayer"></div>
                     </Card.Body>
-                    <Card.Footer className="text-muted">
+                    <Card.Footer>
                         <div className="row">
-                            <div className="col-sm-6">
+                            <div className="col-sm-4">
                                 <button className="btn btn-primary" onClick={this.togglePlay.bind(this)}>Play/Pause</button>
-                                <button onClick={this.initCanvas.bind(this)}>Paint</button>
                             </div>
-                            <div className="col-sm-6">
-                                <input className="form-control-file" type="file" onChange={(e) => this.loadSong(e.target.files)}></input>
-                                <LyricModal parseLyrics={(lyrics) => { this.setWordObjectMap(lyrics) }}></LyricModal>
-                                <input className="form-control-file" type="file" onChange={(e) => this.changeBackground(e.target.files)}></input>
+                            <div className="col-sm-8">
+
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <label>Song</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <input className="form-control-file" type="file" onChange={(e) => this.loadSong(e.target.files)}></input>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <label>Time Struct</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <LyricModal parseLyrics={(lyrics) => { this.setWordObjectMap(lyrics) }}></LyricModal>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <label>Background</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <input className="form-control-file" type="file" onChange={(e) => this.changeBackground(e.target.files)}></input>
+                                    </div>
+                                </div>
+                                <div className="row form-group">
+                                    <div className="col-sm-3">
+                                        <label className="col-form-label">Center Word Size</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <input className="form-control" onChange={(e) => { this.updateWordFontSize(e.target.valueAsNumber) }} type="range" min="1" max="100" defaultValue="60"></input>
+                                    </div>
+                                </div>
+                                <div className="row form-group">
+                                    <div className="col-sm-3">
+                                        <label className="col-form-label">Line Word Size</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <input className="form-control" onChange={(e) => { this.updateLineFontSize(e.target.valueAsNumber) }} type="range" min="1" max="100" defaultValue="30"></input>
+                                    </div>
+                                </div>
+                                <div className="row form-group">
+                                    <div className="col-sm-3">
+                                        <label className="col-form-label">Center Word Color</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <Chrome color={this.state.centerWordColor} onChangeComplete={this.updateWordColor.bind(this)}></Chrome>
+                                    </div>
+                                </div>
+                                <div className="row form-group">
+                                    <div className="col-sm-3">
+                                        <label className="col-form-label">Line Word Filled Color</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <Chrome color={this.state.lineWordFilledColor} onChangeComplete={this.updateLineWordFilledColor.bind(this)}></Chrome>
+                                    </div>
+                                </div>
+                                <div className="row form-group">
+                                    <div className="col-sm-3">
+                                        <label className="col-form-label">Line Word Empty Color</label>
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <Chrome color={this.state.lineWordEmptyColor} onChangeComplete={this.updateLineWordEmptyColor.bind(this)}></Chrome>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </Card.Footer>
@@ -351,10 +477,12 @@ class LyricModal extends React.Component {
 
         return (
             <>
-                <Button variant="primary" onClick={this.openModal.bind(this)}>
-                    Input Time Struct
-                </Button>
-
+                <div className="text-left">
+                    <button onClick={this.openModal.bind(this)}>
+                        Input Time Struct
+                    </button>
+                </div>
+                
                 <Modal show={this.state.showModal} onHide={this.closeModal.bind(this)}>
                     <Modal.Header closeButton>
                         <Modal.Title>Input Lyrics</Modal.Title>
