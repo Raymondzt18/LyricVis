@@ -6,6 +6,7 @@ import LyricVisApp from './LyricVisApp'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import LyricGraphApp from './LyricGraphApp';
 
 function About() {
     return <h2>About</h2>;
@@ -29,13 +30,13 @@ function AppRouter() {
                         <Link to="/vis/">Vis</Link>
                     </Nav>
                     <Nav>
-                        <Link to="/users/">Users</Link>
+                        <Link to="/graph/">Graph</Link>
                     </Nav>
                 </Navbar>
 
                 <Route path="/" exact component={LyricAuthorApp} />
                 <Route path="/vis/" component={LyricVisApp} />
-                <Route path="/users/" component={Users} />
+                <Route path="/graph/" component={LyricGraphApp} />
             </div>
         </Router>
     );

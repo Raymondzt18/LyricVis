@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import Chrome from 'react-color'
 
-class LyricVisApp extends React.Component {
+class LyricGraphApp extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -22,9 +22,7 @@ class LyricVisApp extends React.Component {
             centerWordColor: 'rgb(255,255,255)',
             lineWordSize: 30,
             lineWordFilledColor: 'rgb(0,0,0)',
-            lineWordEmptyColor: 'rgb(255,255,255)',
-            numBars: 200,
-            showFPS: false
+            lineWordEmptyColor: 'rgb(255,255,255)'
         }
     }
 
@@ -33,9 +31,9 @@ class LyricVisApp extends React.Component {
         let wavePlayer = WaveSurfer.create({ container: '#wavePlayer', waveColor: '#5B88C8', progressColor: '#264E73' });
         wavePlayer.on('seek', this.setNewWIDCount.bind(this));
         wavePlayer.load(mp3_file);
-        fetch(jsonFile).then((r) => r.text()).then(text => {
+        fetch(jsonFile).then((r) => r.text()).then(text  => {
             this.setWordObjectMap(text);
-        })
+        })  
         //this.buildWordObjectMatrix();
         let analyser = wavePlayer.backend.analyser;
 
@@ -57,31 +55,20 @@ class LyricVisApp extends React.Component {
 
         let canvas, ctx, center_x, center_y, radius, bars, x_end, y_end, bar_height, bar_width, frequency_array, rotate_deg, rotate_incr;
         rotate_deg = 0;
+        bars = 200;
         bar_width = 2;
         rotate_incr = 0.2;
 
         let boundAnim = animationLooper.bind(this);
 
         canvas = document.getElementById("waveVis");
-        let shownFPS = 0;
-        let fps = 0;
-        const calcFPS = () => setTimeout(function () {
-            shownFPS = fps;
-            fps = 0;
-            calcFPS();
-        }, 1000);
-        calcFPS();
 
         frequency_array = new Uint8Array(this.state.analyser.frequencyBinCount);
 
         function animationLooper() {
-            fps++;
             if (!canvas) {
                 return;
             }
-
-            //Set visualizer appearance
-            bars = this.state.numBars;
 
             //Resizing clears the canvas smh
             //Set to the size of canvas
@@ -92,10 +79,6 @@ class LyricVisApp extends React.Component {
             center_y = canvas.height / 2;
             radius = 150;
 
-            if (this.state.showFPS) {
-                drawFPS(canvas.width * 0.8, canvas.height * 0.2);
-            }
-
             // style the background
             /*var gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
             gradient.addColorStop(0, "rgba(35, 7, 77, 1)");
@@ -103,14 +86,14 @@ class LyricVisApp extends React.Component {
             ctx.fillStyle = gradient;
             ctx.fillRect(0, 0, canvas.width, canvas.height);*/
 
-
+            
 
             this.state.analyser.getByteFrequencyData(frequency_array);
 
             //Fill circle
             ctx.beginPath();
-            ctx.arc(center_x, center_y, frequency_array[0] > 170 ? radius - 3 : radius - 5, 0, 2 * Math.PI);
-            ctx.fillStyle = frequency_array[0] > 170 ? "rgb(20,20,20)" : "rgb(0,0,0)";
+            ctx.arc(center_x, center_y, frequency_array[0]>170? radius-3: radius-5, 0, 2 * Math.PI);
+            ctx.fillStyle = frequency_array[0]>170? "rgb(20,20,20)": "rgb(0,0,0)";
             ctx.globalAlpha = 0.5;
             ctx.fill();
             ctx.stroke();
@@ -119,7 +102,7 @@ class LyricVisApp extends React.Component {
             this.tryDisplayWord(ctx, center_x, center_y);
             this.tryDisplayLine(ctx, canvas.width / 4, canvas.height * 0.9);
 
-            for (var i = 0 + 50; i < bars + 50; i++) {
+            for (var i = 0+50; i < bars+50; i++) {
 
                 //divide a circle into equal parts
                 let rads = Math.PI * 2 / bars;
@@ -152,15 +135,6 @@ class LyricVisApp extends React.Component {
             ctx.lineTo(x2, y2);
             ctx.lineCap = "round"
             ctx.stroke();
-        }
-
-        //X,y location on where to draw
-        function drawFPS(x, y) {
-            ctx.font = "30px Comic Sans MS";
-            ctx.fillStyle = "red";
-            ctx.globalAlpha = 1.0;
-            ctx.textAlign = "center";
-            ctx.fillText(shownFPS, x, y);
         }
 
         boundAnim();
@@ -257,7 +231,7 @@ class LyricVisApp extends React.Component {
         //Measure total length of line to determine where to place lyrics
         let totalLength = 0;
         for (let wordObj of wordObjectArr) {
-            ctx.font = this.state.lineWordSize + "px Comic Sans MS";
+            ctx.font = this.state.lineWordSize+"px Comic Sans MS";
             ctx.textAlign = "left";
             ctx.textBaseline = "middle";
             totalLength += ctx.measureText(wordObj.word + ' ').width;
@@ -266,21 +240,21 @@ class LyricVisApp extends React.Component {
 
         //Find fade in and fade out times
         let startTime = wordObjectArr[0].timeStamp
-        let endTime = wordObjectArr[wordObjectArr.length - 1].timeStamp
-        let timeUntilStart = (startTime - this.state.wavePlayer.getCurrentTime()) > 0 ? (startTime - this.state.wavePlayer.getCurrentTime()) : 0;
+        let endTime = wordObjectArr[wordObjectArr.length-1].timeStamp
+        let timeUntilStart = (startTime - this.state.wavePlayer.getCurrentTime()) > 0? (startTime - this.state.wavePlayer.getCurrentTime()) : 0;
         let timeAfterEnded = (this.state.wavePlayer.getCurrentTime() - endTime) > 0 ? (this.state.wavePlayer.getCurrentTime() - endTime) : 0;
         let lineAlpha = 1;
-        if (this.state.wavePlayer.getCurrentTime() < startTime) {
-            lineAlpha = (lineAlpha - timeUntilStart) < 0 ? 0 : (lineAlpha - timeUntilStart);
-        } else if (this.state.wavePlayer.getCurrentTime() > endTime) {
-            lineAlpha = (lineAlpha - timeAfterEnded) < 0 ? 0 : (lineAlpha - timeAfterEnded);
+        if(this.state.wavePlayer.getCurrentTime() < startTime){
+            lineAlpha = (lineAlpha - timeUntilStart) < 0? 0:(lineAlpha - timeUntilStart);
+        } else if(this.state.wavePlayer.getCurrentTime() > endTime){
+            lineAlpha = (lineAlpha - timeAfterEnded) < 0? 0:(lineAlpha - timeAfterEnded);
         }
-
+        
 
         let offset = 0
         for (let wordObj of wordObjectArr) {
             ctx.beginPath();
-            ctx.font = wordObj.wid == ('wid_' + currentWIDCount) ? this.state.lineWordSize + "px Comic Sans MS" : this.state.lineWordSize + "px Comic Sans MS";
+            ctx.font = wordObj.wid == ('wid_' + currentWIDCount) ? this.state.lineWordSize+"px Comic Sans MS" : this.state.lineWordSize+"px Comic Sans MS";
             ctx.fillStyle = wordObj.timeStamp < this.state.wavePlayer.getCurrentTime() ? this.state.lineWordFilledColor : this.state.lineWordEmptyColor;
             ctx.textAlign = "left";
             ctx.textBaseline = "middle";
@@ -310,9 +284,8 @@ class LyricVisApp extends React.Component {
     }
 
     changeBackground(files) {
-        document.getElementById('canvasBottom').style.backgroundImage = 'url(' + URL.createObjectURL(files[0]) + ')';
-        document.getElementById('canvasBottom').style.backgroundSize = '100% 100%';
-        document.getElementById('canvasBottom').style.opacity = 0.5;
+        document.getElementById('waveVis').style.backgroundImage = 'url(' + URL.createObjectURL(files[0]) + ')';
+        document.getElementById('waveVis').style.backgroundSize = '100% 100%';
     }
 
     setWordObjectMap(wordObjectJSONString) {
@@ -349,21 +322,21 @@ class LyricVisApp extends React.Component {
         return resultMatrix;
     }
 
-    updateLineFontSize(value) {
+    updateLineFontSize(value){
         this.setState({
             lineWordSize: value
         });
     }
 
     //Updates the center word size
-    updateWordFontSize(value) {
+    updateWordFontSize(value){
         this.setState({
             centerWordSize: value
         });
     }
 
     //Update the center word color
-    updateWordColor(colorObject) {
+    updateWordColor(colorObject){
         let r = colorObject.rgb.r
         let g = colorObject.rgb.g
         let b = colorObject.rgb.b
@@ -372,7 +345,7 @@ class LyricVisApp extends React.Component {
         });
     }
 
-    updateLineWordFilledColor(colorObject) {
+    updateLineWordFilledColor(colorObject){
         let r = colorObject.rgb.r
         let g = colorObject.rgb.g
         let b = colorObject.rgb.b
@@ -381,7 +354,7 @@ class LyricVisApp extends React.Component {
         });
     }
 
-    updateLineWordEmptyColor(colorObject) {
+    updateLineWordEmptyColor(colorObject){
         let r = colorObject.rgb.r
         let g = colorObject.rgb.g
         let b = colorObject.rgb.b
@@ -390,20 +363,11 @@ class LyricVisApp extends React.Component {
         });
     }
 
-    updateNumBars(numBars) {
-        this.setState({
-            numBars: numBars
-        })
-    }
-
     render() {
 
         return (
             <div>
-                <div id="wrapper">
-                    <canvas id="canvasBottom"></canvas>
-                    <canvas id="waveVis"></canvas>
-                </div >
+                <canvas id="waveVis"></canvas>
                 <Card className="text-center">
                     <Card.Body>
                         <div id="wavePlayer"></div>
@@ -437,14 +401,6 @@ class LyricVisApp extends React.Component {
                                     </div>
                                     <div className="col-sm-9">
                                         <input className="form-control-file" type="file" onChange={(e) => this.changeBackground(e.target.files)}></input>
-                                    </div>
-                                </div>
-                                <div className="row form-group">
-                                    <div className="col-sm-3">
-                                        <label className="col-form-label">Number of Bars</label>
-                                    </div>
-                                    <div className="col-sm-9">
-                                        <input className="form-control" onChange={(e) => { this.updateNumBars(e.target.valueAsNumber) }} type="range" min="1" max="300" defaultValue="200"></input>
                                     </div>
                                 </div>
                                 <div className="row form-group">
@@ -487,17 +443,11 @@ class LyricVisApp extends React.Component {
                                         <Chrome color={this.state.lineWordEmptyColor} onChangeComplete={this.updateLineWordEmptyColor.bind(this)}></Chrome>
                                     </div>
                                 </div>
-                                <div className="form-check">
-                                    <input defaultChecked={this.state.showFPS} onChange={(e) => { console.log(this.state.showFPS); this.setState({ showFPS: !this.state.showFPS }) }} value={this.state.showFPS} className="form-check-input" type="checkbox" />
-                                    <label className="form-check-label">
-                                        Show FPS
-                                    </label>
-                                </div>
                             </div>
                         </div>
                     </Card.Footer>
                 </Card>
-            </div >
+            </div>
         );
     }
 }
@@ -532,7 +482,7 @@ class LyricModal extends React.Component {
                         Input Time Struct
                     </button>
                 </div>
-
+                
                 <Modal show={this.state.showModal} onHide={this.closeModal.bind(this)}>
                     <Modal.Header closeButton>
                         <Modal.Title>Input Lyrics</Modal.Title>
@@ -549,4 +499,4 @@ class LyricModal extends React.Component {
     }
 }
 
-export default LyricVisApp;
+export default LyricGraphApp;
